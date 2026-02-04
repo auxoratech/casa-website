@@ -1,6 +1,6 @@
 import stars from "@src/assets/images/stars.png";
 
-export default function Section1() {
+export default function Hero() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 px-6 md:px-0">
       <div className="max-w-sm text-center md:text-left">

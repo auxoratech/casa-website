@@ -1,6 +1,6 @@
 import peopleSitting from "@src/assets/images/peopleSitting.png";
 
-export default function Section2() {
+export default function WhoAreWe() {
   return (
     <section className="flex flex-col md:flex-row-reverse items-center justify-center gap-10 md:gap-20 px-6 md:px-0">
       <div className="max-w-sm text-center md:text-left">

@@ -1,3 +1,11 @@
+import OurStory from "./OurStory";
+import WhyChooseCasa from "./WhyChooseCasa";
+
 export default function About() {
-  return <div>About Page</div>;
+  return (
+    <div>
+      <OurStory />
+      <WhyChooseCasa />
+    </div>
+  );
 }
