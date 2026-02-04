@@ -1,0 +1,33 @@
+@import "tailwindcss";
+/* 
+@font-face {
+  font-family: "Helvetica";
+  src: url("./assets/fonts/Helvetica.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./assets/fonts/Helvetica-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@theme {
+  --font-helvetica: "Helvetica", sans-serif;
+} */
+@keyframes ovalRotateIn {
+  from {
+    opacity: 0;
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(-6deg);
+  }
+}
+
+.animate-oval-rotate {
+  animation: ovalRotateIn 0.5s ease-out forwards;
+}
