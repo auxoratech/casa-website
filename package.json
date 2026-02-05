@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://auxoratech.github.io/casa-website",
+  "homepage": "https://auxoratech.github.io/casa-website/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
