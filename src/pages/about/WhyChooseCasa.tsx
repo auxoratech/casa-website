@@ -8,11 +8,11 @@ export default function WhyChooseCasa() {
       </div>
 
       <div className="max-w-xl text-center md:text-left">
-        <h1 className="text-3xl text-end sm:text-4xl font-bold">
+        <h1 className="text-3xl md:text-end sm:text-4xl font-bold">
           Why Choose Casa Community?
         </h1>
 
-        <h2 className="text-2xl tracking-widest sm:text-3xl text-end  font-light mt-1">
+        <h2 className="text-2xl tracking-widest sm:text-3xl md:text-end  font-light mt-1">
           Care with structure. And soul.
         </h2>
 

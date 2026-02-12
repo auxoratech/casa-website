@@ -7,18 +7,19 @@ export default function ProductionTech() {
       </div>
 
       <div className="max-w-xl text-center md:text-left">
-        <h1 className="font-bold w-fit mx-auto md:mx-0">
-          <span className="block text-4xl sm:text-5xl font-semibold">
-            Production Tech
-          </span>
-        </h1>
-        <h2 className="text-2xl sm:text-3xl p-2 max-w-fit mt-5 rounded-md bg-black text-white">
-          NDIS PARTICIPANTS ONLY
-        </h2>
-        <h2 className="text-2xl mt-5 tracking-widest sm:text-3xl">
-          Home & Community Care
-        </h2>
-
+        <div className="flex flex-col items-center">
+          <h1 className="font-bold w-fit mx-auto md:mx-0">
+            <span className="block text-4xl sm:text-5xl font-semibold">
+              Production Tech
+            </span>
+          </h1>
+          <h2 className="text-2xl sm:text-3xl p-2 max-w-fit mt-5 rounded-md bg-black text-white">
+            NDIS PARTICIPANTS ONLY
+          </h2>
+          <h2 className="text-2xl mt-5 tracking-widest sm:text-3xl">
+            Home & Community Care
+          </h2>
+        </div>
         <ul className="mt-4 space-y-2 list-disc  max-w-md text-justify list-inside  text-sm sm:text-base">
           <li>
             Assist in the production of ceramic products, ensuring quality and

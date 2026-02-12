@@ -12,7 +12,7 @@ export default function CommunitySupportWorker() {
           Key responsibilities
         </h2>
 
-        <ul className="mt-4 space-y-2 list-disc  max-w-md text-justify list-inside  text-sm sm:text-base">
+        <ul className="mt-4 space-y-2 list-disc list-inside max-w-md mx-auto md:mx-0 text-justify text-sm sm:text-base">
           <li>
             Assist community members with daily activities and personal care
             needs.

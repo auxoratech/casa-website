@@ -2,10 +2,10 @@ export default function WhatDoWeDo() {
   return (
     <section className="px-6 mt-10">
       <div className="mx-auto max-w-4xl">
-        <h1 className="text-3xl text-end sm:text-4xl font-bold">
+        <h1 className="text-3xl md:text-end sm:text-4xl font-bold">
           What do we do?
         </h1>
-        <h2 className="text-2xl tracking-widest sm:text-3xl text-end font-light mt-1">
+        <h2 className="text-2xl tracking-widest sm:text-3xl md:text-end font-light mt-1">
           Helping people live their best lives - <br />
           paperwork included.
         </h2>

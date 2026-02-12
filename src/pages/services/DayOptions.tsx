@@ -8,7 +8,7 @@ export default function DayOptions() {
       </div>
 
       <div className="max-w-xl text-center md:text-left">
-        <h2 className="text-2xl tracking-widest sm:text-3xl text-end  font-light mt-1">
+        <h2 className="text-2xl tracking-widest sm:text-3xl md:text-end  font-light mt-1">
           Day Options
         </h2>
 

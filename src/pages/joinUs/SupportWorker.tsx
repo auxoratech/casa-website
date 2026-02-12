@@ -8,11 +8,11 @@ export default function SupportWorker() {
       </div>
 
       <div className="max-w-xl text-center md:text-left">
-        <h1 className=" text-end text-4xl sm:text-5xl font-bold">
+        <h1 className=" md:text-end text-4xl sm:text-5xl font-bold">
           Support Worker
         </h1>
 
-        <h2 className="text-2xl tracking-widest sm:text-3xl text-end  font-light mt-1">
+        <h2 className="text-2xl tracking-widest sm:text-3xl md:text-end  font-light mt-1">
           Key responsibilities
         </h2>
         <ul className="mt-4 space-y-2 list-disc  max-w-md text-justify list-inside  text-sm sm:text-base">
