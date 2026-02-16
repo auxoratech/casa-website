@@ -1,8 +1,11 @@
+import { useState } from "react";
 import leftTree from "@src/assets/images/leftTree.png";
 import catThinking from "@src/assets/images/catThinking.png";
 import rightTree from "@src/assets/images/rightTree.png";
+import CalendarModal from "@src/components/CalendarModal";
 
 export default function Footer() {
+  const [isCalendarOpen, setIsCalendarOpen] = useState(false);
   return (
     <footer className="w-full mt-20 text-white overflow-hidden">
       <div className="w-full flex justify-between items-end pt-8 relative z-0 px-4 md:px-12">
@@ -76,7 +79,10 @@ export default function Footer() {
               )}
             </div>
 
-            <button className="mt-8 bg-white text-black text-sm px-6 py-1 font-medium hover:bg-gray-200 transition">
+            <button 
+              onClick={() => setIsCalendarOpen(true)}
+              className="mt-8 bg-white text-black text-sm px-6 py-1 font-medium hover:bg-gray-200 transition"
+            >
               Book Appointment
             </button>
           </div>
@@ -84,6 +90,12 @@ export default function Footer() {
       </div>
 
       <div className="h-px w-full bg-white/20" />
+
+      <CalendarModal 
+        isOpen={isCalendarOpen}
+        onClose={() => setIsCalendarOpen(false)}
+        calLink="bali-aadu-hnrznx/30min"
+      />
     </footer>
   );
 }
