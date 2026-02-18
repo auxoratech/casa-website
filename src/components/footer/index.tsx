@@ -1,9 +1,8 @@
 import { useState } from "react";
 import leftTree from "@src/assets/images/leftTree.png";
-import catThinking from "@src/assets/images/catThinking.png";
 import rightTree from "@src/assets/images/rightTree.png";
 import CalendarModal from "@src/components/CalendarModal";
-
+import ndisLogo from "@src/assets/images/ndisLogo.png";
 export default function Footer() {
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
   return (
@@ -20,15 +19,6 @@ export default function Footer() {
         />
 
         <img
-          src={catThinking}
-          alt=""
-          className="
-            mx-auto
-            w-32 sm:w-40 md:w-48 lg:w-56
-          "
-        />
-
-        <img
           src={rightTree}
           alt=""
           className="
@@ -40,6 +30,20 @@ export default function Footer() {
       </div>
 
       <div className="relative bg-black px-6 py-20 z-10">
+        <div className="absolute -top-4 sm:-top-12 sm:left-40 left-0 w-full">
+          <div className="max-w-6xl mx-auto flex  sm:flex-row items-center gap-3 sm:gap-4 px-6">
+            <img
+              src={ndisLogo}
+              alt="NDIS Logo"
+              className="w-16 sm:w-20 md:w-24"
+            />
+
+            <p className="text-sm sm:text-base sm:mt-10 md:text-lg">
+              Proudly a Registered NDIS provider
+            </p>
+          </div>
+        </div>
+
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-16 max-w-6xl mx-auto">
           <div className="max-w-md text-center md:text-left">
             <h1 className="text-4xl font-bold tracking-wide mb-8 text-center md:text-left">
@@ -79,19 +83,19 @@ export default function Footer() {
               )}
             </div>
 
-            <button 
+            {/* <button
               onClick={() => setIsCalendarOpen(true)}
               className="mt-8 bg-white text-black text-sm px-6 py-1 font-medium hover:bg-gray-200 transition"
             >
               Book Appointment
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
 
       <div className="h-px w-full bg-white/20" />
 
-      <CalendarModal 
+      <CalendarModal
         isOpen={isCalendarOpen}
         onClose={() => setIsCalendarOpen(false)}
         calLink="bali-aadu-hnrznx/30min"

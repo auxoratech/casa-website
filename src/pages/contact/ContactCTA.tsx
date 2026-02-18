@@ -18,12 +18,12 @@ export default function ContactCTA() {
 
       <div className="max-w-5xl mx-auto">
         <div className="flex justify-center mb-20">
-          <button
+          {/* <button
             onClick={() => setIsCalOpen(true)}
             className="bg-black text-white px-16 py-5 text-xl tracking-wide hover:bg-gray-800 transition-all duration-300"
           >
             Book Appointment
-          </button>
+          </button> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
